@@ -1,0 +1,150 @@
+/* Estilos para o tabuleiro */
+body {
+  background-color: #e3e5d8;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.gameboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.boardrow {
+  display: flex;
+}
+
+.ganhador {
+  color: red;
+}
+
+.empate {
+  color: #fff;
+}
+
+.proximo {
+  color: #afc1b6;
+}
+
+/* Estilos para as células */
+.square {
+  background: #e5e5d8;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 120px;
+  padding: 0px;
+  text-align: center;
+  width: 120px;
+  border-radius: 8px;
+  margin: .4vh;
+  transition: 0.3s;
+}
+
+
+
+.square:focus {
+  outline: none;
+}
+
+/* Estilo para o botão de reiniciar */
+.gameinfo {
+  margin-top: 20px;
+  margin-right: 2em;
+  margin-left: 2em;
+  font-size: 20px;
+  /* background-color: #101916; */
+  padding: 1em;
+  border-radius: 20px;
+}
+
+/* Estilos para o status */
+.status {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Estilo para o status do vencedor */
+
+.botao {
+  background-color: #355245;
+  color: #e9d9c9;
+  border: none;
+  margin: .9em;
+  padding: .7em;
+  border-radius: 8px;
+}
+
+
+
+.game {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5em;
+  border-radius: 20px;
+}
+
+.Jogador {
+  color: #648374;
+  font-size: 2.5em;
+}
+
+.square:hover {
+  background-color: rgb(149, 143, 149);
+}
+
+li>button {
+  color: #e9d9c9;
+  background-color: #648374;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+}
+
+.placar {
+  font-size: 2em;
+  color: #648374;
+}
+
+.gameinfo {
+  /* color: #648374; */
+
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+
+.novozerar {
+  border-top: none;
+  border-left: none;
+  margin: .9em;
+  padding: .7em;
+  border-radius: 8px;
+  background-color: #e3e5d8;
+}
+
+.modo1 {
+  color: #e5e5d8;
+  text-decoration: none;
+  background-color: #101916;
+  box-shadow: 2px 2px 2px 2px black;
+  padding: .8em;
+  border-radius: 8px;
+}
+
+.modo {
+  color: #355245;
+  text-decoration: none;
+  box-shadow: 2px 2px 2px 2px black;
+  padding: .7em;
+  border-radius: 8px;
+}
